@@ -1,0 +1,115 @@
+/* Full page layout adjustments for body and html */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ensure the root div fills the page, if necessary */
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+/* Grid container covering full page */
+.video-text-webcam-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Split page into two columns */
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+}
+
+/* Left side container for video and text */
+.left-container {
+    display: flex;
+    flex-direction: column; /* Stack video and text vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    gap: 20px; /* Space between video and text */
+    padding: 20px; /* Padding around content */
+}
+
+.video-player {
+    width: 100%; /* Fill container width */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 45vh; /* Limit height */
+}
+
+.text-box {
+    width: 90%; /* Slightly less width for some padding */
+    height: 100px; /* Fixed height for the text box */
+    border: 2px solid #ccc; /* Stylish border */
+    padding: 10px; /* Padding inside the text box */
+    font-size: 16px; /* Readable text size */
+    resize: none; /* Disable resizing */
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically in the container */
+    align-items: center; /* Center items horizontally in the container */
+    height: 100vh; /* Full height of the viewport */
+    width: 100%; /* Full width of the column */
+}
+
+/* Additional styles for the webcam feed if needed */
+.webcam-feed {
+    max-width: 100%; /* Ensure the webcam feed does not overflow the container */
+    height: auto; /* Adjust height to maintain aspect ratio */
+    max-height: 50vh;
+    /* Add specific styling here if the webcam feed needs adjustments */
+}
+
+/* Style for the practice button */
+.practice-button {
+    margin-top: -10px;
+    padding: 10px 20px; /* Padding inside the button for a larger click area */
+    font-size: 16px; /* Readable font size */
+    cursor: pointer; /* Cursor changes to pointer to indicate it's clickable */
+    border: none; /* Removes the default border */
+    border-radius: 5px; /* Optional: rounds the corners of the button */
+    background-color: #007bff; /* Example background color */
+    color: white; /* Text color */
+    outline: none; /* Removes the outline to make it visually appealing */
+}
+
+.practice-button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.next-button {
+    margin-top: -10px;
+    margin-left: 30px;
+    padding: 10px 20px; /* Padding inside the button for a larger click area */
+    font-size: 16px; /* Readable font size */
+    cursor: pointer; /* Cursor changes to pointer to indicate it's clickable */
+    border: none; /* Removes the default border */
+    border-radius: 5px; /* Optional: rounds the corners of the button */
+    background-color: #007bff; /* Example background color */
+    color: white; /* Text color */
+    outline: none; /* Removes the outline to make it visually appealing */
+}
+
+.next-button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.letter-container {
+    width: 90%; /* Slightly less width for some padding around */
+    height: 100px; /* Fixed height for consistency */
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    background-color: #f0f0f0; /* Light background for the letter container */
+    color: #333; /* Color for the letter */
+    font-size: 48px; /* Large font size for the letter */
+    font-weight: bold; /* Make the letter bold */
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Soft shadow for depth */
+}
+
