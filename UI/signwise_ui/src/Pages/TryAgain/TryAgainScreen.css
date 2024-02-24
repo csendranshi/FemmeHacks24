@@ -1,0 +1,40 @@
+.try-again-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: #1f344b; /* White text color */
+  }
+  
+  .try-again-content {
+    text-align: center;
+  }
+  
+  .try-again-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .try-again-content p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .try-again-content button {
+    padding: 15px 30px;
+    font-size: 24px;
+    background-color: #1f344b;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+  }
+  
+  .try-again-content button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+  }
+  
