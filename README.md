@@ -1,5 +1,5 @@
 # SignWise : Duolingo for sign language
-![logo](/MacBook Pro 14_ - 2.png)
+![logo](MacBook Pro 14_ - 2.png)
 
 ## Inspiration
 
