@@ -1,5 +1,5 @@
 # SignWise : Duolingo for sign language
-![logo]([\MacBook Pro 14_ - 2.png](https://github.com/csendranshi/FemmeHacks24/blob/main/MacBook%20Pro%2014_%20-%202.png))
+![logo](https://github.com/csendranshi/FemmeHacks24/blob/main/MacBook%20Pro%2014_%20-%202.png)
 
 ## Inspiration
 
